@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.ListView?>
+<GridPane
+        fx:controller="controller.SelectController"
+        xmlns:fx="http://javafx.com/fxml"
+        alignment="center"
+>
+    <ListView
+            fx:id="programs"
+            prefHeight="500"
+            prefWidth="700"
+            onMouseClicked="#handleSelect"
+    />
+</GridPane>

@@ -1,0 +1,752 @@
+Id: 1
+ExeStack:
+Ref(int) a; int i; new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+Ref(int) a
+int i; new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+Ref(int) a
+int i; new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int i; new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int i; new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int i
+new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int i
+new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+new(a,1); newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+new(a,1)
+newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+new(a,1)
+newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+SymTable:
+a --> (0,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+newLock(i); fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+newLock(i)
+fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+newLock(i)
+fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+fork(lock(i); wH(a,2); unlock(i)); lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+fork(lock(i); wH(a,2); unlock(i))
+lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+fork(lock(i); wH(a,2); unlock(i))
+lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i); wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+lock(i); print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i); wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+lock(i)
+print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+lock(i)
+print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+print(rH(a)); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+print(rH(a))
+unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+print(rH(a))
+unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+lock(i)
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+wH(a,2); unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+wH(a,2)
+unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+wH(a,2)
+unlock(i)
+Heap:
+1 --> 1
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+unlock(i)
+Heap:
+1 --> 2
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+unlock(i)
+Heap:
+1 --> 2
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 2
+ExeStack:
+Heap:
+1 --> 2
+SymTable:
+a --> (1,int)
+i --> 1
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+

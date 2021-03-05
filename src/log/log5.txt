@@ -1,0 +1,78 @@
+Id: 1
+ExeStack:
+sum([a, b]){int x; x=a+b; print(x)}; int x; int a; int b; a=10; b=2; fork(call(sum:[a, b])); print(x); print(a); print(b)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+sum([a, b]){int x; x=a+b; print(x)}
+int x; int a; int b; a=10; b=2; fork(call(sum:[a, b])); print(x); print(a); print(b)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+sum([a, b]){int x; x=a+b; print(x)}
+int x; int a; int b; a=10; b=2; fork(call(sum:[a, b])); print(x); print(a); print(b)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int x; int a; int b; a=10; b=2; fork(call(sum:[a, b])); print(x); print(a); print(b)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+procedure sum([a, b]) int x; x=a+b; print(x)
+
+Id: 1
+ExeStack:
+int x; int a; int b; a=10; b=2; fork(call(sum:[a, b])); print(x); print(a); print(b)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+procedure sum([a, b]) int x; x=a+b; print(x)
+
+Id: 1
+ExeStack:
+int x
+int a; int b; a=10; b=2; fork(call(sum:[a, b])); print(x); print(a); print(b)
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+procedure sum([a, b]) int x; x=a+b; print(x)
+

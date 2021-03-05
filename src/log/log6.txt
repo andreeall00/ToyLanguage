@@ -1,0 +1,278 @@
+Id: 1
+ExeStack:
+int v1; int v2; v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int v1
+int v2; v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int v1
+int v2; v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int v2; v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int v2; v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int v2
+v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+int v2
+v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v1=2; v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v1=2
+v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v1=2
+v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 0
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v2=3; if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v2=3
+if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+v2=3
+if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 0
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 3
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+if(v1!=0)then{print(mul(v1,v2))}else{print(v1)}
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 3
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+print(mul(v1,v2))
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 3
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+print(mul(v1,v2))
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 3
+Out:
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
+Id: 1
+ExeStack:
+Heap:
+SymTable:
+v1 --> 2
+v2 --> 3
+Out:
+1
+FileTable:
+SemaphoreTable:
+LatchTable:
+BarrierTable:
+ProcTable:
+
